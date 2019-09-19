@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>PipeDream</title>
+    <link href="index.css" rel="stylesheet" type="text/css" media="all">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+    <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/alistairfink/PipeDream/master/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"/>
+  </head>
+  <body>
+    <div class="logo">
+      <h1>PipeDream</h1>
+      <h3>A Cryptocurrency Price Checker</h3>
+    </div>
+    <div class="links">
+      <a href="https://github.com/alistairfink/PipeDream" target="_blank" class="button"> 
+        <div>
+          <img src="./src/github.png"/>
+          &nbsp;Github
+        </div>
+      </a>
+      <a href="https://github.com/alistairfink/PipeDream/releases" target="_blank" class="button"> 
+        <div>
+          <img src="./src/download.png"/>
+          &nbsp;Releases
+        </div>
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.alistairfink.pipedream" target="_blank" class="button"> 
+        <div>
+          <img src="./src/play-store.png"/>
+          &nbsp;Download
+        </div>
+      </a>
+    </div>
+    <div class="content-box content-summary">
+      The purpose of this app was to provide an easy and quick way to check the prices of your favourite crypto currencies. This app was built in React Native and leverages Coin Market Cap's API to gather data for each coin as well as Chasing Coin's API to gather the logos for each coin. A kanban board was utilised to track changes and features. This board can be found in the project section of the github repo.
+    </div>
+    <div class="content-box">
+      <div class="content-left">
+        <h2>Main Screen</h2>
+        The first and main feature of Pipedream is the card view that a user can use to pin their favourite coins. The user can set these cards to update upon opening the app so as to have the quickest possible glance at their favourite coins. The user can also press on the titles of any of these pinned cards to access more in depth information about these coins.
+      </div>
+      <div class="content-right">
+        <div class="main-carousel">
+          <div class="carousel-div">
+            <img class="carousel-img" src="https://raw.githubusercontent.com/alistairfink/PipeDream/master/screenshots/Home.png"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-box reverse">
+      <div class="content-left">
+        <h2>Quick Conversion</h2>
+        The quick conversion screen can be used to quickly compare various coins. It supports dual currency comparison with on the live conversions. This means that a user can select any two coins they want and start typing in coin values to quickly see how much one coin is worth in another coin. This can be utilised to quickly convert the price of a coin into a more familiar coin. This also displays this price in USD to allow the user to get a feel from a fiat currency perspective.
+      </div>
+      <div class="content-right">
+        <div class="main-carousel">
+          <div class="carousel-div">
+            <img class="carousel-img" src="https://raw.githubusercontent.com/alistairfink/PipeDream/master/screenshots/Convert.png"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-box">
+      <div class="content-left">
+        <h2>Top 100</h2>
+        The Top 100 screen displays the current top 100 coins in a nice presentable grid format to allow a user to quickly analyse the market and analyse what the recent activity is like within this market. This can help investors to know what is happening within the market or any other of analytical ways. Upon pressing the always on screen first column the app will navigate to the in depth information screen for the respective currency.
+      </div>
+      <div class="content-right">
+        <div class="main-carousel">
+          <div class="carousel-div">
+            <img class="carousel-img" src="https://raw.githubusercontent.com/alistairfink/PipeDream/master/screenshots/Top.png"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-box reverse">
+      <div class="content-left">
+        <h2>In Depth Information</h2>
+        The In Depth Information screen allows a user to look at the in depth information provided by the Coin Market Cap API. This is also where the API from Chasing Coins is leveraged to pull the logos of each coin. This allows users to analyse a coin and get a feel of it from their logo.
+      </div>
+      <div class="content-right">
+        <div class="main-carousel">
+          <div class="carousel-div">
+            <img class="carousel-img" src="https://raw.githubusercontent.com/alistairfink/PipeDream/master/screenshots/InDepth.png"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-box">
+      <div class="content-left">
+        <h2>Search</h2>
+        The Search page allows the user to search for any coin that is on Coin Market Cap. This includes upwards of 1500 coins. Upon pressing any of these coins the user is taken to the in depth information page for the respective coin.
+      </div>
+      <div class="content-right">
+        <div class="main-carousel">
+          <div class="carousel-div">
+            <img class="carousel-img" src="https://raw.githubusercontent.com/alistairfink/PipeDream/master/screenshots/Search.png"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
